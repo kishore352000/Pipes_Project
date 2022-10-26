@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pipes';
+  title = 'EvenBindingDemo';
+ 
+public val:any;
+  greet(event:any){
+    this.val = "Hlo Kishore";
+    
+  }
+  today: number = Date.now();
+  temp1:string='My name is Kisore';
 }
+
